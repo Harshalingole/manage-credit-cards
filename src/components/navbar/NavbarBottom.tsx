@@ -9,7 +9,7 @@ import {
 
 const NavbarBottom: FC = () => {
   return (
-      <div className="navbar-bg p-4   bg-slate-400 rounded-t-[3rem] shadow-xl grid  grid-cols-4 place-items-center gap-[2.56rem]">
+      <div className="navbar-bg p-4 sm:w-full md:w-[50%] lg:w-[40%] xl:w-[28%] 2xl:w-[25%]   bg-slate-400 rounded-t-[3rem] shadow-xl grid  grid-cols-4 place-items-center gap-[2.56rem]">
         <NavLink
           to={`/` || `card-detail`}
           className={({ isActive, isPending }) =>

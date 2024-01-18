@@ -18,7 +18,7 @@ main {
 }
 
 .active-icon-bg {
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 5rem;
   background: rgb(97, 142, 254);
   background: radial-gradient(
